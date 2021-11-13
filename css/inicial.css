@@ -1,0 +1,105 @@
+/*Content*/
+
+.parallax {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#parallax-1 {
+    background-image: url(../img/model3/model3-banner.jfif);
+}
+
+#parallax-2 {
+    background-image: url(../img/modely/modely-banner.jfif);
+}
+
+#parallax-3 {
+    background-image: url(../img/models/models-banner.jfif);
+}
+
+#parallax-4 {
+    background-image: url(../img/modelx/modelx-banner.jfif);
+}
+
+.content {
+    height: 100%;
+}
+
+.btn-custom {
+    border-radius: 25px;
+    background-color: #171a209c;
+    padding: 8px 24px;
+    font-weight: 900;
+}
+
+.titulo {
+    margin-bottom: 480px;
+    position: relative;
+    top: 80px;
+}
+
+.btn-comprar {
+    margin-right: 10px;
+}
+
+.btn-detalhe {
+    background-color: #FFFFFFA6;
+    padding: 8px 56.536px;
+    font-weight: 900;
+    margin-left: 10px;
+}
+
+.btn-detalhe:hover {
+    background-color: #ffffff;
+}
+
+
+@media screen and (max-width: 460.5px){
+    #parallax-1 {
+        background-image: url(../img/model3/model3-banner-mobile.jfif); 
+    }
+
+    #parallax-2 {
+        background-image: url(../img/modely/modely-banner-mobile.jfif); 
+    }
+
+    #parallax-3 {
+        background-image: url(../img/models/models-banner-mobile.jfif); 
+    }
+
+    #parallax-4 {
+        background-image: url(../img/modelx/modelx-banner-mobile.jfif); 
+    }
+
+    .btn-detalhe {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .btn-comprar {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 444px){
+    .btn-detalhe {
+        margin-top: 15px;
+    }
+
+    .btn-custom {
+        position: relative;
+        bottom: 80px;
+    }
+}
+
+@media screen and (max-height: 626.5px) {
+    .titulo {
+        margin-bottom: 350px;
+    }
+}
+
+
+/*Content*/

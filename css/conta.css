@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "GothamBook";
+    src: url(../fonts/Gotham-Book.woff2);
+}
+
+@font-face {
+    font-family: "GothamMedium";
+    src: url(../fonts/Gotham-Medium.woff2);
+}
+
+:root {
+    --font-princ: "GothamBook";
+    --font-secund: "GothamMedium";
+}
+
+* {
+    color: #393C41;
+    font-family: var(--font-secund);
+}
+
+h1 {
+    color: #181B21;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+#content {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border: 1px solid #dfe0e442;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+    max-width: 425px;
+}
+
+label {
+    display: block;
+    margin: 0;
+    margin-bottom: 3px;
+    margin-left: 20px;
+    text-align: start;
+}
+
+#email, #senha{
+    margin-bottom: 25px;
+    background-color: #F5F5F5;
+    outline: none;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 25px;
+    width: 95%;
+    transition: box-shadow .3s;
+}
+
+#email:focus, #senha:focus {
+    box-shadow: 0 0 0 2px #393C41;
+}
+
+#enviar {
+    color: white;
+    background-color: #3d69e1;
+}
+
+.btn-custom {
+    font-size: 12px;
+    width: 95%;
+    outline: none;
+    box-shadow: none;
+}
+
+#cadastro {
+    background-color: white;
+    color: #181B21;
+    box-shadow: 0 0 0 1px;
+}
+
+#cadastro:hover {
+    background-color: #181B21;
+    color: white;
+}
+
+#enviar:hover {
+    background-color: #1546cc;
+}
+
+.custom-link {
+    font-size: 12px;
+    color: #181B21;
+    display: block;
+    margin-bottom: 35px;
+}
+
+.custom-link:hover {
+    color: #393C41;
+}
+
+.btn-custom {
+    border-radius: 25px;
+    background-color: #171a209c;
+    padding: 8px 24px;
+    font-weight: 900;
+}
+
