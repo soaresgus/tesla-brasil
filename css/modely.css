@@ -1,0 +1,233 @@
+/*Geral*/
+@font-face {
+    font-family: "GothamBook";
+    src: url(../fonts/Gotham-Book.woff2);
+}
+
+@font-face {
+    font-family: "GothamMedium";
+    src: url(../fonts/Gotham-Medium.woff2);
+}
+
+@font-face {
+    font-family: "GothamLight";
+    src: url(../fonts/Gotham-Light.woff2);
+}
+
+:root {
+    --font-princ: "GothamBook";
+    --font-secund: "GothamMedium";
+    --font-terceira: "GothamLight";
+}
+
+/*Geral*/
+
+/*First content*/
+
+.parallax {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#parallax-1 {
+    background-image: url(../img/modely/modely-hero.jfif);
+}
+
+.content {
+    height: 100%;
+}
+
+.btn-custom {
+    border-radius: 25px;
+    background-color: #171a209c;
+    padding: 8px 24px;
+    font-weight: 500;
+}
+
+.titulo {
+    margin-bottom: 480px;
+    color: white;
+}
+
+.btn-comprar {
+    background-color: #FFFFFFA6;
+    padding: 4px 20px;
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.btn-comprar:hover {
+    background-color: #ffffff;
+}
+
+#first-content {
+    color: white;
+    font-family: var(--font-secund);
+}
+
+.first-title {
+    font-size: 32px;
+}
+
+.first-sub {
+    position: relative;
+    bottom: 20px;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 650.5px){
+    #parallax-1 {
+        background-image: url(../img/modely/modely-hero-mobile.jfif); 
+    }
+}
+
+@media screen and (max-width: 448px) {
+    #first-icon {
+        display: none;
+    }
+
+    .titulo {
+        position: relative;
+        margin-bottom: 230px;
+    }
+}
+
+@media screen and (max-width: 376.5px) {
+    .first-title {
+        font-size: 28px;
+    }
+
+    .first-sub {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 332.5px) {
+    .first-title {
+        font-size: 24px;
+    }
+
+    .first-sub {
+        font-size: 8px;
+    }
+}
+
+/*First Content*/
+
+/*Second Content*/
+
+.top-title {
+    font-family: var(--font-terceira);
+    font-size: 17px;
+    color: #181B21;
+    margin: 0;
+}
+
+.bottom-title {
+    font-family: var(--font-secund);
+    font-size: 28px;
+    color: #181B21;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.paragraph {
+    font-size: 14px;
+}
+
+.spacing {
+    padding: 45px 0;
+}
+
+.second-title {
+    padding: 0 40px;
+}
+
+.gray {
+    color: #E2E4E4;
+}
+
+.white {
+    color: white;
+}
+
+#second-second-content {
+    overflow: hidden;
+    height: 650px;
+}
+
+@media screen and (max-width: 1155.5px) {
+    #second-second-content {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 991.5px) {
+    .bottom-title {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 767.5px){
+    .second-title {
+        margin-top: 15px;
+    }
+
+    .second-image {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 529.5px){
+    .second-title {
+        padding: 0 20px;
+    }
+}
+
+/*Second Content*/
+
+/*Third Content*/
+
+#third-video {
+    overflow: hidden;
+    height: 750px;
+}
+
+#third-second-content {
+    padding: 40px 40px 40px 25px;
+}
+
+@media screen and (max-width: 1155.5px) {
+    #third-video {
+        height: 100%;
+    }
+}
+
+/*Third Content*/
+
+/*Fourth Content*/
+
+.banner {
+    height: 513px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1155.5px) {
+    .banner {
+        height: 10%;
+    }
+}
+
+/*Fourth Content
+
+/*Final content*/
+
+#final-content {
+    padding: 280px 0;
+    background-color: black;
+}
+
+/*Final content
