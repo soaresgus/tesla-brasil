@@ -1,0 +1,252 @@
+/*Geral*/
+@font-face {
+    font-family: "GothamBook";
+    src: url(../fonts/Gotham-Book.woff2);
+}
+
+@font-face {
+    font-family: "GothamMedium";
+    src: url(../fonts/Gotham-Medium.woff2);
+}
+
+@font-face {
+    font-family: "GothamLight";
+    src: url(../fonts/Gotham-Light.woff2);
+}
+
+:root {
+    --font-princ: "GothamBook";
+    --font-secund: "GothamMedium";
+    --font-terceira: "GothamLight";
+}
+
+/*Geral*/
+
+/*First content*/
+
+.parallax {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#parallax-1 {
+    background-image: url(../img/models/models-hero-desktop.jfif);
+}
+
+.content {
+    height: 100%;
+}
+
+.btn-custom {
+    border-radius: 25px;
+    background-color: #171a209c;
+    padding: 8px 24px;
+    font-weight: 500;
+}
+
+.titulo {
+    margin-bottom: 480px;
+    color: white;
+}
+
+.btn-comprar {
+    background-color: #FFFFFFA6;
+    padding: 4px 20px;
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.btn-comprar:hover {
+    background-color: #ffffff;
+}
+
+#first-content {
+    color: white;
+    font-family: var(--font-secund);
+}
+
+.first-title {
+    font-size: 32px;
+}
+
+.first-sub {
+    position: relative;
+    bottom: 20px;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 650.5px){
+    #parallax-1 {
+        background-image: url(../img/models/models-hero-mobile.jfif); 
+    }
+}
+
+@media screen and (max-width: 448px) {
+    #first-icon {
+        display: none;
+    }
+
+    .titulo {
+        position: relative;
+        margin-bottom: 230px;
+    }
+}
+
+@media screen and (max-width: 376.5px) {
+    .first-title {
+        font-size: 28px;
+    }
+
+    .first-sub {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 332.5px) {
+    .first-title {
+        font-size: 24px;
+    }
+
+    .first-sub {
+        font-size: 8px;
+    }
+}
+
+/*First Content*/
+
+/*Second Content*/
+
+#second-content {
+    background: linear-gradient(180deg, #222222, #000000);
+    padding: 45px 0;
+}
+
+#second-content #carousel img{
+    width: 1164px;
+    height: 533px;
+}
+
+#second-content .carousel-control {
+    background-color: #00000028;
+    padding: 7px 10px;
+    border-radius: 50%;
+}
+
+#second-content .carousel-control:hover {
+    background-color: #00000041;
+}
+
+#second-second-content {
+    margin-top: 45px;
+}
+
+.title {
+    font-weight: 900;
+}
+
+@media screen and (max-width: 991.5px) {
+    #second-content #carousel img {
+        height: 320px;
+    }
+}
+
+@media screen and (max-width: 767.5px) {
+    #second-content #carousel .carousel-caption {
+        font-size: 12px;
+    }
+}
+
+.top-title {
+    font-family: var(--font-terceira);
+    font-size: 17px;
+    color: #181B21;
+    margin: 0;
+}
+
+.bottom-title {
+    font-family: var(--font-secund);
+    font-size: 28px;
+    color: #181B21;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.paragraph {
+    font-size: 14px;
+}
+
+.spacing {
+    padding: 45px 0;
+}
+
+.second-title {
+    padding: 0 40px;
+}
+
+.second-image {
+    margin-bottom: 30px;
+}
+
+.gray {
+    color: #E2E4E4;
+}
+
+.white {
+    color: white;
+}
+
+@media screen and (max-width: 991.5px) {
+    .bottom-title {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 767.5px){
+    .second-title {
+        margin-top: 15px;
+    }
+
+    .second-image {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 529.5px){
+    .second-title {
+        padding: 0 20px;
+    }
+}
+/*Second Content*/
+
+/*Third Content*/
+
+#third-second-content {
+    background: linear-gradient(180deg, #222222, #000000);
+    padding: 45px 0;
+}
+
+/*Third Content*/
+
+/*Final content*/
+
+#final-content {
+    padding: 280px 0;
+    background-color: white;
+}
+
+.btn-comprar-final {
+    background-color: #00000056;
+    padding: 4px 20px;
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.btn-comprar:hover {
+    background-color: #000000;
+}
+
+/*Final content
