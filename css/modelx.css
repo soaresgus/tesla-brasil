@@ -32,7 +32,7 @@
 }
 
 #parallax-1 {
-    background-image: url(../img/models/models-hero-desktop.jfif);
+    background-image: url(../img/modelx/modelx-hero-desktop.avif);
 }
 
 .content {
@@ -81,15 +81,11 @@
 
 @media screen and (max-width: 650.5px){
     #parallax-1 {
-        background-image: url(../img/models/models-hero-mobile.jfif); 
+        background-image: url(../img/modelx/modelx-hero-mobile.avif);
     }
 }
 
 @media screen and (max-width: 448px) {
-    #first-icon {
-        display: none;
-    }
-
     .titulo {
         position: relative;
         margin-bottom: 230px;
@@ -230,6 +226,32 @@
 }
 
 /*Third Content*/
+
+/*Fourth Content*/
+
+#fourth-image {
+    overflow: hidden;
+    height: 750px;
+}
+
+#fourth-second-content {
+    padding: 40px 15px 40px 40px;
+}
+
+@media screen and (max-width: 1155.5px) {
+    #fourth-image {
+        height: 1%;
+    }
+}
+
+@media screen and (max-width: 991.5px) {
+    #fourth-second-content {
+        padding: 40px 25px;
+    }
+}
+
+
+/*Fourth Content*/
 
 /*Final content*/
 
