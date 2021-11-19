@@ -32,7 +32,7 @@
 }
 
 #parallax-1 {
-    background-image: url(../img/modelx/modelx-hero-desktop.avif);
+    background-image: url(../img/modelx/modelx-hero-desktop.png);
 }
 
 .content {
@@ -81,7 +81,7 @@
 
 @media screen and (max-width: 650.5px){
     #parallax-1 {
-        background-image: url(../img/modelx/modelx-hero-mobile.avif);
+        background-image: url(../img/modelx/modelx-hero-mobile.png);
     }
 }
 

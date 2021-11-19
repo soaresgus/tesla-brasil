@@ -1,0 +1,70 @@
+/*Geral*/
+@font-face {
+    font-family: "GothamBook";
+    src: url(../fonts/Gotham-Book.woff2);
+}
+
+@font-face {
+    font-family: "GothamMedium";
+    src: url(../fonts/Gotham-Medium.woff2);
+}
+
+@font-face {
+    font-family: "GothamLight";
+    src: url(../fonts/Gotham-Light.woff2);
+}
+
+:root {
+    --font-princ: "GothamBook";
+    --font-secund: "GothamMedium";
+    --font-terceira: "GothamLight";
+}
+
+#border {
+    border: 1px solid #83858f41;
+    border-radius: 15px;
+    height: 90%;
+    width: 95%;
+}
+
+body {
+    font-family: var(--font-princ);
+}
+
+/*Geral*/
+
+h1 {
+    font-family: var(--font-secund);
+}
+
+@media screen and (max-width: 531.5px) {
+    h1 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 437.9px) {
+    h1 {
+        font-size: 20px;
+    }
+}
+
+/*Content*/
+
+#principal {
+    margin: 15px 0px;
+}
+
+#divisor {
+    height: 1px;
+    background-color: #212529;
+    width: 95%;
+
+}
+
+#produtos {
+    border: 1px solid red;
+    margin: 25px auto;
+}
+
+/*Content*/
