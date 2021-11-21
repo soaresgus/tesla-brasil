@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/geral.css">
+    <link rel="stylesheet" href="css/produtos.css">
+
+    <script src="js/produtos.js"></script>
+
+    <link rel="icon" href="img/favicon.png">
+
+    <title>Tesla Brasil</title>
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="navbar navbar-expand-md">
+            <div class="container-fluid">
+                <a href="index.html" class="nav-brand"><img src="img/tesla-logo.svg" width="130" height="40"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="border">
+        <div class="container-fluid" id="principal">
+            <div id="produto">
+                <div class="row no-gutters">
+                    <div class="col-lg-2 col-xl-1 order-2 order-lg-1">
+                        <div id="fotos" class="text-center">
+                            <ul>
+                                <li><img src="img/model3/total.jfif" class="img-fluid img primeiro"
+                                        onclick="imagem(this)"></li>
+                                <li><img src="img/model3/second-content/pedals.jfif" class="img-fluid img"
+                                        onclick="imagem(this)"></li>
+                                <li><img src="img/model3/second-content/spoiler.jfif" class="img-fluid img"
+                                        onclick="imagem(this)"></li>
+                                <li><img src="img/model3/second-content/wheels.jfif" class="img-fluid img"
+                                        onclick="imagem(this)"></li>
+                                <li><img src="img/model3/fourth-content/caroussel-1.jfif" class="img-fluid img"
+                                        onclick="imagem(this)"></li>
+                                <li><img src="img/model3/fourth-content/caroussel-2.jfif" class="img-fluid img"
+                                        onclick="imagem(this)"></li>
+                                <li><img src="img/model3/fourth-content/caroussel-3.jfif" class="img-fluid img"
+                                        onclick="imagem(this)"></li>
+                                <li><img src="img/model3/fourth-content/caroussel-4.jfif" class="img-fluid img"
+                                        onclick="imagem(this)"></li>
+                                <li><img src="img/model3/fourth-content/content-1.jfif" class="img-fluid img"
+                                        onclick="imagem(this)"></li>
+                                <li><img src="img/model3/fourth-content/content-2.jfif" class="img-fluid img"
+                                        onclick="imagem(this)"></li>
+                                <li><img src="img/model3/fourth-content/content-3.jfif" class="img-fluid img"
+                                        onclick="imagem(this)"></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-xl-5 order-1 order-lg-2">
+                        <img src="img/model3/total.jfif" id="geral" class="img-fluid">
+                    </div>
+
+                    <div class="col-lg-4 col-xl-6 order-3 text-lg-left text-center">
+                        <div id="conteudo">
+                            <h1>Model 3</h1>
+                            <h2 id="valor">53.900 <h2 id="moeda" style="font-size: 24px;">USD</h2></h2>
+                            <div id="moedas">
+                                <button class="btn-custom" onclick="moeda('usd')">USD</button>
+                                <button class="btn-custom" onclick="moeda('eur')">EUR</button>
+                                <button class="btn-custom" onclick="moeda('brl')">BRL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

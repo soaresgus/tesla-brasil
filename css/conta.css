@@ -16,6 +16,7 @@
 * {
     color: #393C41;
     font-family: var(--font-secund);
+    overflow: hidden;
 }
 
 h1 {
