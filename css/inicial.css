@@ -1,4 +1,15 @@
 /*Content*/
+::-webkit-scrollbar-track {
+    background-color: #c0c0c0;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: #F4F4F4;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #f5f5f5;
+}
 
 .parallax {
     height: 100%;

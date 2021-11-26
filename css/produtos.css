@@ -70,6 +70,7 @@ h1 {
 }
 
 .img.primeiro {
+    border-color: #393C41;
     border: 2px solid #393C41;
 }
 
@@ -105,7 +106,7 @@ h1 {
     margin-left: 20px;
 }
 
-#conteudo h1 {
+h1 {
     font-size: 80px;
 }
 
@@ -128,11 +129,82 @@ h1 {
     font-weight: 900;
     color: #393C41;
     transition: .3s;
+    text-transform: uppercase;
+    border-radius: 5px;
 }
 
-.btn-custom:hover {
+.btn-custom:hover:not(.btn-cor):not(.btn-comprar) {
     color: white;
     background-color: #393C41;
+}
+
+.btn-comprar {
+    border-color: #28A745;
+    color: #28A745;
+    border-radius: 50px;
+    padding: 5px;
+    letter-spacing: 1px;
+}
+
+.btn-comprar:hover {
+    border-color: #28A745;
+    background-color: #28A745;
+    color: white;
+}
+
+#cores {
+    margin: 55px 0 80px;
+    border: 1px solid #393C41;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn-cor {
+    height: 40px;
+    width: 40px;
+    padding: 0px;
+    border: none;
+    margin: 0 5px;
+    border-radius: 50px;
+}
+
+.branco {
+    border: 1px solid #c0c0c0;
+    background: radial-gradient(rgba(255, 255, 255, 0.199), rgba(255, 255, 255, 0)), #F4F4F4;
+}
+
+.azul {
+    border: 1px solid #c0c0c0;
+    background: radial-gradient(rgba(255, 255, 255, 0.199), rgba(255, 255, 255, 0)), #265DA6;
+}
+
+.cinza {
+    border: 1px solid #c0c0c0;
+    background: radial-gradient(rgba(255, 255, 255, 0.199), rgba(255, 255, 255, 0)), #4A4B50;
+}
+
+.preto {
+    border: 1px solid #c0c0c0;
+    background: radial-gradient(rgba(255, 255, 255, 0.199), rgba(255, 255, 255, 0)), #121212;
+}
+
+.vermelho {
+    border: 1px solid #c0c0c0;
+    background: radial-gradient(rgba(255, 255, 255, 0.199), rgba(255, 255, 255, 0)), #A60303;
+}
+
+.prata {
+    border: 1px solid #c0c0c0;
+    background: radial-gradient(rgba(255, 255, 255, 0.199), rgba(255, 255, 255, 0)), #C3C4C6;
+}
+
+#banner {
+    margin-top: 100px;
+    font-family: var(--font-secund);
+}
+
+#banner h3{
+    font-size: 16px;
 }
 
 
@@ -154,10 +226,24 @@ h1 {
     #moeda, #conteudo {
         margin: 0;
     }
+
+    #banner h2{
+        font-size: 24px;
+    }
+
+    #banner {
+        margin-top: 25px;
+    }
+
+    #banner .topo {
+        margin-bottom: 25px;
+    }
+
+   
 }
 
-@media screen and (max-width: 441px) {
-    #conteudo h1 {
+@media screen and (max-width: 1200px) {
+    h1 {
         font-size: 60px;
     }
 }
