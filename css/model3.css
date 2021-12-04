@@ -47,7 +47,7 @@
 }
 
 .titulo {
-    margin-bottom: 480px;
+    margin-bottom: 400px;
     color: white;
 }
 
@@ -100,6 +100,16 @@
         position: relative;
         top: 90px;
     }
+}
+
+.seta-geral {
+    overflow: hidden;
+}
+
+#seta {
+    position: relative;
+    margin-top: 15px;
+    overflow: hidden;
 }
 
 @media screen and (max-width: 335.5px) {
